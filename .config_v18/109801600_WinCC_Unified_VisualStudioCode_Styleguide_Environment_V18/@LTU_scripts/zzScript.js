@@ -1,3 +1,5 @@
+import { logTrace } from "./logTrace";
+
 export function _TemplateFunction(param1, param2) {
     /**
      * Suivi des modifications :
@@ -352,3 +354,4 @@ export function _TemplateFunction(param1, param2) {
         throw error;
     }
   }
+ logTrace()
